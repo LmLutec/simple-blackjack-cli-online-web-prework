@@ -36,6 +36,7 @@ def hit? (sum)
   input = get_user_input
   until input == "s" || input == "h"
     prompt_user
+    invalid_command
     input = get_user_input
   end
   if input == 'h'
@@ -56,6 +57,7 @@ end
 
 def runner 
   # binding.pry 
+  sum = 
   until display_card_total >21  
  welcome 
 initial_round
