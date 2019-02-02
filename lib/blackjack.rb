@@ -53,5 +53,4 @@ initial_round
 hit?
 end_game
 end
-end
     
