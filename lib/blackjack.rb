@@ -53,5 +53,5 @@ welcome
 initial_round
 hit?
 end
-end
 end_game
+end
