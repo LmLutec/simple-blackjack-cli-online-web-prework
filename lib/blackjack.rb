@@ -53,5 +53,7 @@ welcome
 initial_round
 hit?
 end_game
+runner
+
 end
 end
