@@ -36,6 +36,7 @@ def hit? (sum)
   input = get_user_input
   until input == "s" || input == "h"
     prompt_user
+    input = get_user_input
   end
   if input == 'h'
     sum += deal_card
