@@ -58,7 +58,7 @@ end
 def runner 
   # binding.pry 
   sum = initial_round
-  until display_card_total >21  
+  until sum >21  
  welcome 
 initial_round
 hit?
