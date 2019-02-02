@@ -48,6 +48,7 @@ end
 #####################################################
 
 def runner
+  until display_card_total >21 do 
 welcome
 initial_round
 hit?
