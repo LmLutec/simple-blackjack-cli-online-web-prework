@@ -50,6 +50,7 @@ end
 
 def runner
   until display_card_total >21  
+  binding.pry 
 welcome
 initial_round
 hit?
