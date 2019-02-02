@@ -48,7 +48,7 @@ end
 #####################################################
 
 def runner
- welcome
+welcome
 initial_round
 hit?
 end_game
