@@ -37,7 +37,7 @@ def hit? (sum)
   
   if get_user_input == 'h'
     sum += deal_card
-    # display_card_total(sum) += deal_card + display_card_total(sum)
+    
   else 
      display_card_total(sum)
   end
