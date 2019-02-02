@@ -16,7 +16,7 @@ def prompt_user
 end
 
 def get_user_input
-  input = gets.strip.to_i 
+  input = gets.strip
 end
 
 def end_game(card_total)
