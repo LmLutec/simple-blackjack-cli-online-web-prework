@@ -24,8 +24,8 @@ def end_game(card_total)
 end
 
 def initial_round
- deal_card 
- deal_card
+# deal_card 
+# deal_card
   sum = deal_card + deal_card
  display_card_total(sum)
  sum 
