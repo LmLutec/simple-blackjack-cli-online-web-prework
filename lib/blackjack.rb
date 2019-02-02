@@ -48,7 +48,6 @@ end
 #####################################################
 
 def runner
-  until display_card_total > 21
  welcome
 initial_round
 hit?
