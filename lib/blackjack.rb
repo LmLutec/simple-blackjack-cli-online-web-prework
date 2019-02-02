@@ -34,6 +34,7 @@ end
 def hit? (sum)
   prompt_user
   if get_user_input == 'h'
+    binding.pry
     display_card_total(sum) = deal_card + display_card_total(sum)
   else 
      display_card_total(sum)
@@ -49,7 +50,7 @@ end
 #####################################################
 
 def runner 
-  binding.pry 
+  # binding.pry 
   until display_card_total >21  
  welcome 
 initial_round
