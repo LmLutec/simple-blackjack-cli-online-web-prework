@@ -32,9 +32,10 @@ def initial_round
 end
 
 def hit? (sum)
+  binding.pry
   prompt_user
   if get_user_input == 'h'
-    binding.pry
+    
     display_card_total(sum) = deal_card + display_card_total(sum)
   else 
      display_card_total(sum)
